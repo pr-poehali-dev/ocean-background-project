@@ -46,7 +46,7 @@ export default function HeroSection({ scrollTo }: HeroSectionProps) {
             <h1 className="font-cormorant text-6xl md:text-8xl text-white font-light leading-none mb-4">
               Имя Автора
             </h1>
-            <p className="font-cormorant text-2xl md:text-3xl italic text-primary/70 font-light">
+            <p className="font-cormorant text-2xl md:text-3xl italic text-primary font-semibold">
               Художник · Экспериментатор · Исследователь
             </p>
           </div>
