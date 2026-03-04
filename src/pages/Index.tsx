@@ -211,7 +211,7 @@ export default function Index() {
             ))}
           </div>
 
-          <button className="glass px-4 py-2 rounded-full text-xs text-primary/80 tracking-widest uppercase hover:text-primary transition-colors">
+          <button className="btn glass px-4 py-2 rounded-full text-xs text-primary/80 tracking-widest uppercase hover:text-primary transition-colors">
             Связаться
           </button>
         </div>
@@ -262,13 +262,13 @@ export default function Index() {
             <div className="flex items-center justify-center gap-4 mt-10 animate-fade-in-up anim-delay-4">
               <button
                 onClick={() => scrollTo('Галерея')}
-                className="glass-strong px-8 py-3 rounded-full text-sm text-primary tracking-wider uppercase hover:bg-primary/20 transition-all duration-300 border border-primary/30"
+                className="btn glass-strong px-8 py-3 rounded-full text-sm text-primary tracking-wider uppercase hover:bg-primary/20 transition-all duration-300 border border-primary/30"
               >
                 Смотреть работы
               </button>
               <button
                 onClick={() => scrollTo('Контакты')}
-                className="px-8 py-3 rounded-full text-sm text-white/40 tracking-wider uppercase hover:text-white/70 transition-all duration-300"
+                className="btn px-8 py-3 rounded-full text-sm text-white/40 tracking-wider uppercase hover:text-white/70 transition-all duration-300"
               >
                 Контакты →
               </button>
@@ -382,7 +382,7 @@ export default function Index() {
             </div>
 
             <div className="text-center mt-12 reveal">
-              <button className="glass px-10 py-3 rounded-full text-sm text-primary/70 uppercase tracking-wider hover:text-primary border border-primary/20 hover:border-primary/40 transition-all">
+              <button className="btn glass px-10 py-3 rounded-full text-sm text-primary/70 uppercase tracking-wider hover:text-primary border border-primary/20 hover:border-primary/40 transition-all">
                 Все работы
               </button>
             </div>
@@ -480,7 +480,7 @@ export default function Index() {
                     className="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 text-white/80 placeholder:text-white/20 text-sm focus:outline-none focus:border-primary/40 transition-colors resize-none"
                   />
                 </div>
-                <button className="w-full py-4 rounded-2xl bg-primary text-ocean-abyss font-medium tracking-widest uppercase text-sm hover:opacity-90 transition-opacity">
+                <button className="btn w-full py-4 rounded-2xl bg-primary text-ocean-abyss font-medium tracking-widest uppercase text-sm hover:opacity-90 transition-opacity">
                   Отправить сообщение
                 </button>
               </div>
